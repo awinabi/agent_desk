@@ -13,6 +13,7 @@ gem 'jquery-rails', '~> 1.0.14'
 gem 'nested_form'
 gem 'simple_form'
 gem 'activeadmin'
+gem 'chosen-rails'
 
 group :assets do
   gem 'sass-rails',   '~> 3.2.3'
