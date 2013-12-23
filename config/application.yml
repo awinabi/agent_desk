@@ -1,0 +1,11 @@
+development:
+  authenticate_devise_with_ldap: false
+  host_name: 'localhost:3000'
+
+test:
+  authenticate_devise_with_ldap: false
+  host_name: 'localhost:3000'
+
+production:
+  authenticate_devise_with_ldap: false
+  host_name: 'www.service-desk.in'

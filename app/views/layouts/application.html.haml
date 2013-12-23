@@ -1,0 +1,22 @@
+!!!
+%html
+  %head
+    %title Call Agent CRM
+    = stylesheet_link_tag    "application", :media => "all"
+    = javascript_include_tag "application"
+    = csrf_meta_tags
+  %body#agent-desk
+    .header
+      = render :partial => 'layouts/header'
+    .content
+      - if notice
+        %p.notice
+          - if notice.is_a?(Array)
+            - notice.each do |notice|
+              = notice
+              %br
+          - else
+            = notice
+      - if alert
+        %p.alert= alert
+      = yield

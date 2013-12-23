@@ -1,0 +1,30 @@
+%a.brand{:href => "/"}
+  Agent Desk
+- unless current_user.nil?
+  %span.caption
+    .brand_name
+      &nbsp;Agent Desk&nbsp;
+  %form.search{:action => "/"}
+    %input.search-query{:name => "search", :placeholder => "Search", :type => "text", :autocomplete=>"off", :style => "width: 100px;"}
+  %ul.nav
+    %li
+      = link_to "New Ticket", '/tickets_new'
+    %li
+      %a{:href => "/"}
+        %i.icon-list
+        Dashboard
+    %li
+      %a{:href => '/faqs'} FAQ
+    %li#user.dropdown
+      = link_to content_tag(:span, content_tag(:i, '', :class=>"icon icon-white icon-user") + "#{current_user.name}"),"#"
+      %ul.dropdown-menu
+        %li
+          = current_dept_loc.try(:name)
+        %li
+          = (link_to "Sign out", destroy_user_session_path, :method => :delete)
+- else
+  %span.caption
+    .brand_name
+      &nbsp;&nbsp; Agent Desk &nbsp
+:javascript
+  $('.search-query').placeholder();
