@@ -11,5 +11,11 @@
 // GO AFTER THE REQUIRES BELOW.
 //
 //= require jquery
+//= require jquery-ui.min
 //= require jquery_ujs
+//= require bootstrap-tooltip
+//= require bootstrap-popover
+//= require bootstrap-dropdown
+//= require bootstrap-modal
 //= require_tree .
+//= require jquery.validationEngine

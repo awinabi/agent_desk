@@ -12,7 +12,7 @@ gem 'will_paginate'
 gem 'jquery-rails', '~> 1.0.14'
 gem 'nested_form'
 gem 'simple_form'
-gem 'activeadmin'
+gem 'activeadmin', '0.6.0'
 gem 'chosen-rails'
 
 group :assets do

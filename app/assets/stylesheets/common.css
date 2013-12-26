@@ -16,52 +16,52 @@ time, mark {
   line-height: 20px;
   color: #222222;
 }
-small {
+#agent-desk small {
   font-family: Tahoma,"Helvetica Neue",Helvetica,Arial,sans-serif;
   font-size: 11px;
   line-height: 20px;
   color: red;
 }
-body {
+#agent-desk body {
 	margin: 0px;
 	padding: 0px;
 }
 
-h1, h2 {
+#agent-desk h1, #agent-desk h2 {
 	font-weight: bold;
 	color: #666666;
 	margin: 10px 0px 0px 5px;
 }
 
-h3, h4 {
+#agent-desk h3, #agent-desk h4 {
 	font-color: #666666;
 	font-weight: bold;
 }
 
-.comment_show {
+#agent-desk .comment_show {
 	font-size: 14px;
 	color: #22229F;
 	margin: 5px 0px 0px 5px;
 }
 
-.comment_status {
+#agent-desk .comment_status {
 	color: #9F2222;
 }
 
-h3 {
+#agent-desk h3 {
 	margin: 5px;
 }
 
-a {
+#agent-desk a {
 	text-decoration: none;
 	color: #0088CC;
 }
 
-a:hover {
+#agent-desk a:hover {
 	text-decoration: underline;
 }
 
-.icon {
+#agent-desk .icon {
 	background: url("glyphicons-halflings.png") no-repeat;
 	width: 16px;
 	height: 16px;
@@ -70,23 +70,23 @@ a:hover {
 	margin: 7px 3px 0px 0px
 }
 
-.icon.icon-white {
+#agent-desk .icon.icon-white {
 	background-image: url("glyphicons-halflings-white.png");
 }
 
-.icon-user {
+#agent-desk .icon-user {
 	background-position: -170px 0px;
 }
 
-.icon-list-alt {
+#agent-desk .icon-list-alt {
 	background-position: -264px -24px;
 }
 
-.icon-remove {
+#agent-desk .icon-remove {
 	background-position: -310px 0px;
 }
 
-#service-desk li a .caret {
+#agent-desk li a .caret {
 	border-left: 4px solid transparent;
   border-right: 4px solid transparent;
   border-top: 4px solid #CCCCCC;
@@ -101,18 +101,18 @@ a:hover {
   border-top-color: #CCCCCC;
 }
 
-#service-desk h2.collapsible {
+#agent-desk h2.collapsible {
 	line-height: 30px;
 	border: #ddd solid;
 	border-width: 1px 0px;
 	cursor: pointer;
 }
 
-#service-desk h2.collapsible + .collapsible-content {
+#agent-desk h2.collapsible + .collapsible-content {
 	display: none;
 }
 
-#service-desk h2.collapsible .caret {
+#agent-desk h2.collapsible .caret {
 	border-left: 4px solid transparent;
   border-right: 4px solid transparent;
   border-top: 4px solid #333;
